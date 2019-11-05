@@ -13,3 +13,5 @@ for (let hobby of hobbies){
 }
 
 console.log(hobbies.map(hobby=>hobby.toUpperCase()));
+// Old array will not be changed
+console.log(hobbies);
