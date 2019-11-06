@@ -36,3 +36,22 @@ hobbies.push('Programming')
 console.log('Copy 3');
 console.log(copiedArray3);
 console.log(hobbies);
+
+
+// Destructuring syntax for objects
+
+const printName = ({name, age}) =>{
+    console.log(name);
+    console.log(age);
+}
+
+
+printName(person)
+
+
+const {name,age} =  person
+console.log(name,age);
+
+//Destructuring syntax for arrays
+const [hobby1, hobby2] = hobbies
+console.log(hobby1,hobby2)
